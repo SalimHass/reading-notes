@@ -1,3 +1,3 @@
 # reading-notes
 <h1>Salim Hassouneh</h1>
-[I'm an inline-style link](./test.html)
+[click here to find SQL notes](./SQL.html)
