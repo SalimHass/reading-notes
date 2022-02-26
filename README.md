@@ -8,4 +8,5 @@
 
 
 [click here to find SQL notes](./SQL.html)
+
 [click here to find the growth Mind set notes](./TheGrowthMindset.html)
