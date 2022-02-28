@@ -1,0 +1,28 @@
+<html>
+   <h1>Testing</h1> 
+   <h3>Unit tests and TDD?</h3>
+   <p>Unit tests are some pieces of code to exercise the input, the output and the behaviour of your code. You can write them anytime you want.</p>
+   <p>Test-Driven Development is a strategy to think (and write!) tests first.</p>
+   <p>it is to creat the test first with baby steps , the test name should be clear as it is you live documentation , while the test file name should just like the module name, and its better to have it in a separet folder named test</p>
+   <p>thing to care about is the structure. A convention widely used is the AAA: Arrange, Act and Assert.</p>
+   <p>Arrange: you need to organize the data needed to execute that piece of code (input);</p>
+    <p>Act: here you will execute the code being tested (exercise the behaviour);</p>
+    <p>Assert: after executing the code, you will check if the result (output) is the same as you were expecting.</p>
+    you can use pytest library , but you are free to use any library .
+    .....
+    <h2>name equals main</h2>
+    <p>If the python interpreter is running that module (the source file) as the main program, it sets the special __name__ variable to have a value “__main__”. If this file is being imported from another module, __name__ will be set to the module’s name. Module’s name is available as value to __name__ global variable.</p>\
+    <p>which means that if you run the script file directly its name will be main, but when imported from another file the name variable will be the module name</p>
+    <p><h3>Advantages :</h3> 
+
+    1-Every Python module has it’s __name__ defined and if this is ‘__main__’, it implies that the module is being run standalone by the user and we can do corresponding appropriate actions.<br/>
+    2-If you import this script as a module in another script, the __name__ is set to the name of the script/module.<br/>
+    3-Python files can act as either reusable modules, or as standalone programs.<br/>
+    4-if __name__ == “main”: is used to execute some code only if the file was run directly, and not imported.</p><br/>
+    <h3>Recursion</h3>
+    <p>The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.</p>
+    <p>when using recursion , the most important thing is to remember the Base condition . else the recurssion will  break or fail to stop</p>
+    <p>Recursion, can be direct and indirect , which means that the recursive function is inside the same function , or two functions call each other.</p>
+    
+    
+</html>
