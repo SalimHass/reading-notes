@@ -1,0 +1,31 @@
+<h1>Reading and Writing Files in Python</h1>
+
+<p>a file is a contiguous set of bytes used to store data, its consist of three parts: </p>
+<p>Header:metadata about the contents of the file (file name, size, type, and so on)</p>
+<p>Data: contents of the file as written by the creator or editor</p>
+<p>End of file(EOF): special character that indicates the end of the file</p>
+
+<p>the file path consists of three parts as well , Folder path which is the location of the file , </p>
+<p>File Name which is the actual name of the file , Extention which is the end of the file pre-apended with a dot (.) its used indicate the fiel type.</p>
+<p>to access a path , you can write the whole path or relative path , use (./file) if it is in the same level , or (../file) if its up by one level, </p>
+  <p>(../../file) means two levels away</p>
+
+<h3>Line Endings</h3>
+<p>its how to represent a new line , for windows use \r\n, unix use \r and \n in the next line</p>
+<h3>Character Encodings</h3>
+<p>The two most common encodings are the ASCII and UNICODE Formats. ASCII can only store 128 characters, while Unicode can contain up to 1,114,112 characters</p>
+<h3>Opening and Closing a File in Python</h3>
+<p>we use {file = open('file_name.ext')} to open a file , we should always make sure that we have closed the file prparly after using ,there are two ways to make</p>
+ <p> sure that we have closed the file , we can use try-finally block , or the more recomanded and better way is to use {with open('file_name.ext' , "o") as reader:},</p>
+ <p> the o here stands for the mode we want to use the file with , r: for reading which is the default , w: for writing, truncating (overwriting) the file first,</p>
+  <p>"rb" or "wb" for Open in binary mode (read/write using byte data) </p>
+<h3>Reading and Writing Opened Files</h3>
+<p>here is some methods to read the files ,{.read(size=-1)} : This reads from the file based on the number of size bytes.{.readline(size=-1)}:This reads </p>
+  <p>at most size number of characters from the line. {.readlines()}:This reads the remaining lines from the file object and returns them as a list.  </p>
+
+<h2>Python Exceptions: An Introduction</h2>
+<p>Exceptions versus Syntax Errors: syntax error is thrown when there is incorrect statment is detected in the code. </p>
+<p>exception error: its is thrown when the syntax of the code is correct , but when it runs it return an error due to its logic</p>
+<p>The try and except Block: Handling Exceptions</p>
+<p>The try and except block in Python is used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program.</p>
+  <p>The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.</p>
