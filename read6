@@ -1,0 +1,75 @@
+<html>
+    <h1>Random Module</h1>
+    <p>
+        The random module in python provides access to functions that support various operations, the most important is the one that allows you to generate random numbers.
+        <br>
+The random module in python provides access to functions that support various operations, the most important is the one that allows you to generate random numbers.<br><br>
+We use random to make the computer pick a random element from a list, or to flip a coin. We can use it as well to make password database more secure or to power a random page feature in the website. 
+<br><br>
+<h3>Random Functions</h3>
+<h5>Randint</h5>
+This function will generate a random integer in the range given as arguments in the function , to be able to use this function you have to import the random module. It looks like this random.randint(lower_value, upper_value), where the lower and upper values included in the random generated. 
+<br>
+<h5>Random</h5>
+random.random() will return a floot that is between zero and one
+<h5>Choice</h5>
+to chose from a list randomly we can use random.choice(list)
+    <h5>Shuffle</h5>
+    we can use random.shuffle(list) to rearrange the content of the list in a random order.
+<h5>Randrange</h5>
+we use random.randrange(start, stop, step), where the start is where the range start , the stop the end of the range , and step is the step in the range.
+    
+    </p>
+    <hr>
+    <h1>Risk Analysis</h1>
+    <p>
+        risk analysis is the process of identifying the risks in applications or software that you built and prioritizing them to test. After that, the process of assigning the level of risk is done. The categorization of the risks takes place, hence, the impact of the risk is calculated.<br><br>
+        <h5>Why use Risk Analysis</h5>
+        we use it to hilight the potential problem areas in the project. this means we need to take test for the possibility of the damage that can be caused to the software and to find the solution for that.
+        <br>
+        here is a list of possible risks that might face the program:
+        <ol>
+  <li>Use of new hardware</li>
+  <li>Use of new technology</li>
+  <li>Use of new automation tool</li>
+  <li>The sequence of code</li>
+  <li>Availability of test resources for the application</li>
+</ol> 
+there are certain risks that are unavoidable, like the ones in the list below:
+<ol>
+  <li>The time that you allocated for testing</li>
+  <li>A defect leakage due to the complexity or size of the application</li>
+  <li>Urgency from the clients to deliver the project</li>
+  <li>Incomplete requirements</li>
+</ol> 
+the previous cases should be handled with care , the following points should help with that 
+<ul>
+    <li>Conduct Risk Assessment review meeting</li>
+    <li>Use maximum resources to work on high-risk areas</li>
+    <li>Create a Risk Assessment database for future use</li>
+    <li>Identify and notice the risk magnitude indicators: high, medium, low.</li>
+</ul>
+the levels of risks can be described as follow:
+<br>
+<b>High:</b> means the effect of the risk would be very high and non-tolerable. The company might face loss.<br>
+
+<b>Medium:</b>  it is tolerable but not desirable. The company may suffer financially but there is a limited risk.<br>
+
+<b>Low:</b>  it is tolerable. There lies little or no external exposure or no financial loss.<br><br>
+<h5>The perspective of Risk Assessment</h5>
+There are three perspectives of Risk Assessment:
+<ul>
+    <li>Effect – To assess risk by Effect. In case you identify a condition, event or action and try to determine its impact.</li>
+    <li>Cause – To assess risk by Cause is opposite of by Effect. Initialize scanning the problem and reach to the point that could be the most probable reason behind that.</li>
+    <li>Likelihood – To assess risk by Likelihood is to say that there is a probability that a requirement won’t be satisfied.</li>
+    <h5>Perfom Risk Analysis</h5>
+    we use three steps for that : <br>
+    one: search for the risk <br>
+    two: analyzing the impact of each individual risk
+    three:measures for the risk identified
+    
+</ul>
+        
+    </p>
+    
+</html>
