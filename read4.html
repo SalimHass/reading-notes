@@ -1,0 +1,58 @@
+<html>
+  <h1>Classes and Objects</h1> 
+  <p>
+      Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.<br>
+      we define the class by using this: class NameOfClass: <br><br>
+under the class we can define the functions we want this class to have by using this: def function(self):
+<br><br>
+we can write our logic under this function that will be linked to this class.
+<br><br>
+we can assign the class to an object using this syntax : newobj = NameOfClass(), now the newobj is an object of the class NameOfClass. which now contains all the variables and functions that are in the NameOfClass class.
+<br><br>
+to access a variable inside the new obj (newobj), assuming there is a variable named "variable" under the class , we should use the newobj.variable. 
+<br><br>
+we can reassign variables for the newly created objects . using the same syntax used to access that variable , ie: newobj.variable = newvalue
+. in this case the variable inside the new object will refer to the newvalue.
+<br><br>
+to access a function inside the newly created object . we can use the same logic as the variable . newobj.function()
+
+</p>
+<h3>init()</h3>
+<p>
+   The __init__() function, is a special function that is called when the class is being initiated. It's used for asigning values in a class.
+   <br>
+   in the __init__ function we assign the values that this class should be passed when assighn to new object. and these values can be used in other functions under the class using "self.value".
+   
+</p>
+  
+  <hr>
+  <h1>Thinking Recursively in Python</h1>
+    <p>
+the concept of thinking recursively is easy, when you face a problem you have to start dividing these problem into small managable problems . then you start solving small problems going up to where the big problem started where then things would be resolved.
+<br><br>
+<h3>Recursive Functions in Python</h3>
+ A recursive function is a function defined in terms of itself via self-referential expressions. 
+ <br>
+ this means that the recursive function is a function that calls it self inside the function, and to break the chain should have a base case that would stop the function from going in one direction and resolve in the opposite direction . 
+     <h3>Recursive Data Structures in Python</h3>  
+     A data structure is recursive if it can be deﬁned in terms of a smaller version of itself, examples of recursive data structure are lists , set, tree, dictionary etc.
+         </p>
+         <hr>
+         <h1>Python Testing with pytest: Fixtures and Coverage</h1>
+         <p>
+           <h3>Fixtures</h3>
+           when you are testing the code you will be doing multiple tests that aims to check different paths through the code. tests with different characteristics handled in python using "parametrized tests".
+           <br><br>
+           In other cases, with more complex things , you will want to have some objects available for all your tests . these objects might contain data that you want to share across tests. These are called “fixtures”.
+
+<br><br>
+fixtures is where you can define a set of data and functions that will be used later to test against .it will be called once every time the test is initiated .  
+         </p>
+    
+    
+    
+    
+    
+    
+    
+</html>
