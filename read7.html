@@ -1,0 +1,48 @@
+<html>
+    <h1>
+        Python Scope
+    </h1>
+    <p>
+        The concept of scope rules how variables and names are looked up in your code. It determines the visibility of a variable within the code. The scope of a name or variable depends on the place in your code where you create that variable.<br>
+        we use rules called:LEGB
+<br>
+and the letters here represent: Local, Enclosing, Global, and Built-in 
+<br>
+
+
+    Global scope: The names that you define in this scope are available to all your code.
+<br>
+
+    Local scope: The names that you define in this scope are only available or visible to the code within the scope.
+<br>
+<ul>
+<li>Local (or function) scope is the code block or body of any Python function or lambda expression. This Python scope contains the names that you define inside the function. These names will only be visible from the code of the function. It’s created at function call, not at function definition, so you’ll have as many different local scopes as function calls. This is true even if you call the same function multiple times, or recursively. Each call will result in a new local scope being created.</li>
+
+<li>Enclosing (or nonlocal) scope is a special scope that only exists for nested functions. If the local scope is an inner or nested function, then the enclosing scope is the scope of the outer or enclosing function. This scope contains the names that you define in the enclosing function. The names in the enclosing scope are visible from the code of the inner and enclosing functions.</li>
+
+
+<li>Global (or module) scope is the top-most scope in a Python program, script, or module. This Python scope contains all of the names that you define at the top level of a program or a module. Names in this Python scope are visible from everywhere in your code.</li>
+
+<li>Built-in scope is a special Python scope that’s created or loaded whenever you run a script or open an interactive session. This scope contains names such as keywords, functions, exceptions, and other attributes that are built into Python. Names in this Python scope are also available from everywhere in your code. It’s automatically loaded by Python when you run a program or script.</li>
+</ul>
+<h3>The Local Scope</h3>
+The local scope or function scope is a Python scope created at function calls. Every time you call a function, you’re also creating a new local scope. On the other hand, you can think of each def statement and lambda expression as a blueprint for new local scopes. These local scopes will come into existence whenever you call the function at hand.By default, parameters and names that you assign inside a function exist only within the function or local scope associated with the function call. 
+<br>
+<h3>The Enclosing Scope</h3>
+Enclosing or nonlocal scope is observed when you nest functions inside other functions. The enclosing scope was added in Python 2.2. It takes the form of the local scope of any enclosing function’s local scopes. Names that you define in the enclosing Python scope are commonly known as nonlocal names
+<h3>The Global Scope</h3>
+From the moment you start a Python program, you’re in the global Python scope. Internally, Python turns your program’s main script into a module called __main__ to hold the main program’s execution. The namespace of this module is the main global scope of your program,Global names can be updated or modified from any place in your global Python scope.
+<hr>
+<h1>Big O</h1>
+is about how much time your algoritam takes to be excute , and how much memory it will consume .
+it always consider the worst case scenario, because you have to take that in concentration.
+<ul>
+    <li>O(1) : constant running time</li>
+    <li>O(log n): logarthmic running time </li>
+    <li>O(n): linear running time</li>
+    <li>O(nlogn): log-linear running time</li>
+    <li>O(n<sup>k</sup>) : polynomial runnig time</li>
+</ul>
+
+    </p>
+</html>
