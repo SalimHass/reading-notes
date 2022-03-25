@@ -1,0 +1,35 @@
+<html>
+    <pr>
+        <h1>List Comprehensions in Python</h1>
+        syntax : new_list= [expression for item in list]
+        <br>
+        the main ingrediants of list comprehension :<br>
+        <ol>
+            <li>the expression we’d like to carry out</li>
+            <li>the object that the expression will work on</li>
+            <li>an iterable list of objects to build our new list from</li>
+        
+        </ol>
+        <ul>
+            Notes About list Comprehensions :
+            <li>List comprehension methods are an elegant way to create and manage lists</li>
+            <li>In Python, list comprehensions are a more compact way of creating lists. </li>
+            <li>More flexible than for loops, list comprehension is usually faster than other methods</li>
+        </ul>
+        <h4>Create a List with range()</h4>
+        we can creat a using the in range(). the syntax would be like this [x for x in range(limit)]
+        <h4>Create a List Using Loops and List Comprehension in Python</h4>
+        in the list Comprehension you can reduce the code length , insted of going through a loop to and append the needed result after a syntax , you can use list comperhansion to use less lines. 
+        <h4>you can use part of list</h4>
+        in list comperhansion with a condition to to be return part of the range. like this -> even_numbers = [ x for x in range(1,20) if x % 2 == 0], which will return the the even numbers only.
+        <h4>comperhansion with strings</h4>
+        you can use list comperhansion with strings and can be used to iterate aver words and liters in words.and can use other string methods with the strings, like lower() and upper().
+        <h4>using comperhansion to extract numbers</h4>
+        you can use list comperhansion to get numbers from a string using the following syntax ->number = [ x for x in datadata if x.isdigit()]
+        <h4>you can use function</h4>
+        you can use a function as an expression in the list comperhansion, as in the example -> nums = [func(x) for x in range(1,10)]
+        <h4>can use more than one list</h4>
+        you can use additional arguments like the following -> nums = [x+y for x in [1,2,3] for y in [10,20,30]]
+        
+    </pr>
+</html>
