@@ -1,8 +1,5 @@
 # Reading: Class 16
 
-> [Back to the main](./README.md)
-
----
 
 ## Serverless
 
