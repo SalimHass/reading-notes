@@ -104,10 +104,13 @@ python manage.py runserver --settings=settings.local
 - All environments are in VCS.
 - It’s easy to share settings between developers.
 ### Cons:
-### You need to find a way to handle secret passwords and tokens.
-### “Inheritance” of settings can be hard to trace and maintain.
-### Environment variables
-### To solve the issue with sensitive data, you can use environment variables.
+ You need to find a way to handle secret passwords and tokens.
+ 
+ “Inheritance” of settings can be hard to trace and maintain.
+ 
+ Environment variables
+ 
+ To solve the issue with sensitive data, you can use environment variables.
 ```python
 import os
 
@@ -171,18 +174,18 @@ DATABASES = {
 
  As the name suggests, the collection consists of twelve parts:
 
-1- Codebase
-2- Dependencies
-3- Config
-4- Backing services
-5- Build, release, run
-6- Processes
-7- Port binding
-8- Concurrency
-9- Disposability
-10- Dev/prod parity
-11- Logs
-12- Admin processes
+- Codebase
+- Dependencies
+- Config
+- Backing services
+- Build, release, run
+- Processes
+- Port binding
+- Concurrency
+- Disposability
+- Dev/prod parity
+- Logs
+- Admin processes
 
 ## Setting Structure
  Instead of splitting settings by environments, you can split them by the source: Django, third- party apps (Celery, DRF, etc.), and your custom settings.
